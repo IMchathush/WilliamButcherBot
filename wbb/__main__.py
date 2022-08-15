@@ -118,8 +118,8 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 text="Commands ❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="Gmail ⚡️",
+                url="https://mail.google.com/mail/u/3/?ogbl#inbox",
             ),
         ],
         [
@@ -128,7 +128,12 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
+                text="Support 👨", url="https://t.me/Mizutsuki_Support"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="Owner 😈", url="https://t.me/Imchathush"
             ),
         ],
         [
